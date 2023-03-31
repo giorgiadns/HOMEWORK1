@@ -66,3 +66,8 @@ border: 0px;
 background-image:linear-gradient(to left,#1E1E1E,black); 
 border-radius: 10px;
 }
+.tab2{
+border: 0px; 
+background-image:linear-gradient(to bottom,#1E1E1E,black); 
+border-radius: 10px;
+}
