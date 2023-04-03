@@ -71,3 +71,37 @@ border: 0px;
 background-image:linear-gradient(to bottom,#1E1E1E,black); 
 border-radius: 10px;
 }
+.tooltip {
+position: relative;
+	}
+.tooltip .tooltiptext {
+	
+visibility:hidden;
+width: 120px;
+background-image: linear-gradient(to top, orangered, orange);
+color: beige;
+font-family:Sans-serif;
+font-size:15px;
+text-align: center;
+border-radius: 10px;
+padding: 5px 10px;
+position:absolute;
+width: 180px;
+bottom: 100%;
+left: 60%;
+margin-left: -65px;
+transition: opacity 0.3s;
+z-index:1;
+
+}
+.tooltip:hover .tooltiptext {
+ visibility: visible;
+ opacity: 1;
+}
+.tooltip .tooltiptext::after {
+content: "";
+position: absolute;
+top: 100%;
+ left: 50%;
+margin-left: -5px;
+}
