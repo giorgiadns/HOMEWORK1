@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>Il D.T.D.</title>
+<link rel="stylesheet" href="cssesterno1.css" type="text/css" />
+</head>
+
+<body>
+<table>
+
+<tr>
+<td>
+<h1 style="color:orange;">LA DOCUMENT TYPE DESCRIPTION</h1>
+<h2 style="color:orange;">Cos'&egrave; e a cosa serve?</h2>
+</td>
+<td style="text-align:right;"><a href="./Homepage.html" class="btn btn-info">
+<button type="button" class="button">Indietro</button>
+</a>
+</td>
+</tr>
+
+<tr>
+<td colspan=2 style="border:3px solid white">
+<p style="color:white;font-size:20px;">La <strong>Document Type Description</strong>
+è una descrizione della grammatica di un linguaggio di markup.
+All'interno del file .dtd vengono specificati:
+	<ul style="color:white;font-size:20px;">
+	<li>gli elementi ammessi;</li>
+	<li>gli attributi ammessi;</li>
+	<li>le entit&agrave;.</li>
+	</ul>
+All'interno del file .html, la dichiarazione del file .dtd pu&ograve;
+essere:
+	<ul style="color:white;font-size:20px;">
+	<li>interna: &lt;!DOCTYPE esempio[&lt;!ELEMENT esempio (#nome)&gt;]&gt;; </li>
+	<li>esterna:&lt;!DOCTYPE esempio SYSTEM "file.dtd"&gt; .</li>
+	</ul>
+</p>
+</td>
+</tr>
+<tr>
+<td colspan=2 style="background-color:darkslategray;border:3px solid white">
+<p style="color:white;font-size:20px;">Prendiamo come esempio la dichiarazione 
+della D.T.D. usata nei file .html realizzati per questo sito:<br/>
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;<br/>
+e analizziamone i vari elementi:
+	<ul style="color:white;font-size:20px;">
+	<li>'html' indica che il linguaggio utilizzato &egrave; HTML;</li>
+	<li>'PUBLIC' indica che il documento &egrave; definito universalmente (non localmente);</li>
+	<li>'W3C' indica che il documento fa riferimento alle specifiche dettate dal W3C;</li>
+	<li>'EN' indica che la D.T.D. è scritta in inglese;</li>
+	<li>'Strict' indica che la D.T.D. esclude ogni elemento che riguarda il layout e non consente l'uso di alcuni elementi;</li>
+	<li>'http://.../xhtml1-strict.dtd' non &egrave; altro che la URI del documento .dtd.</li>
+	</ul>
+</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
