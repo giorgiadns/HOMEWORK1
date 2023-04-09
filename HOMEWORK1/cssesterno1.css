@@ -31,7 +31,7 @@ width: auto\9;
   cursor: pointer;
   text-align: center;
   color: black;
-  background-color:white; /* oppure image:linear-gradient(180deg, white,gray,black) ma non mi convince*/
+  background-color:white; 
   border: none;
   border-radius: 10px;
 }
@@ -71,6 +71,11 @@ border: 0px;
 background-image:linear-gradient(to bottom,#1E1E1E,black); 
 border-radius: 10px;
 }
+.tab3{
+border: 2px solid gray; 
+background-image:linear-gradient(to right,#1E1E1E,black); 
+border-radius: 0px;
+}
 .tooltip {
 position: relative;
 	}
@@ -105,3 +110,4 @@ top: 100%;
  left: 50%;
 margin-left: -5px;
 }
+
