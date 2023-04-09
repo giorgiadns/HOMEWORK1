@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>Validit&agrave; di un documento</title>
+<link rel="stylesheet" href="cssesterno1.css" type="text/css" />
+</head>
+
+<body>
+
+<table>
+
+<tr>
+<td>
+<h1 style="color:orange;">VALIDIT&Agrave; DI UN DOCUMENTO E DOCUMENTO WELL-FORMED</h1>
+</td>
+<td style="text-align:right;"><a href="./Homepage.html" class="btn btn-info">
+<button type="button" class="button">Indietro</button>
+</a>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="border:3px solid gray">
+<h2 style="color:orange;">Documento well-formed</h2>
+<p style="color:white;font-size:20px;">
+Un documento HTML si dice <strong>well-formed</strong> se 
+rispetta le seguenti regole:
+	<ul style="color:white;font-size:20px;">
+	<li>Gli elementi e gli attributi devono essere scritti in minuscolo;</li>
+	<li>Gli elementi devono essere ben nidificati;</li>
+	<li>Gli attributi devono essere sempre scritti tra virgolette;</li>
+	<li>Gli elementi devono essere sempre chiusi con un tag di chiusura o, 
+	se vuoti, tramite la chiusura abbreviata /&gt;;</li>
+	</ul>
+</p>
+<p style="color:white;font-size:20px;">
+Vediamo qualche esempio:
+<center>
+
+<table style="width:70%;">
+
+<tr class="tab3">
+<th style="font-family:Copperplate Gothic Light;color:orange;font-size:20px;">Well-formed</th>
+<th style="font-family:Copperplate Gothic Light;color:orange;font-size:20px;">Non well-formed</th>
+
+<tr class="tab3">
+<td>&lt;strong&gt;parola&lt;/strong&gt;</td>
+<td>&lt;STRONG&gt;parola&lt;/STRONG&gt;</td>
+</tr>
+
+<tr class="tab3">
+<td>&lt;p&gt;Lara &lt;em&gt;Croft&lt;/em&gt;&lt;/p&gt;</td>
+<td>&lt;p&gt;Lara &lt;em&gt;Croft&lt;/p&gt;&lt;/em&gt</td>
+</tr>
+
+<tr class="tab3">
+<td>&lt;br /&gt;, &lt;hr /&gt;</td>
+<td>&lt;hr&gt;, &lt;br&gt;</td>
+</tr>
+
+<tr class="tab3">
+<td>&lt;th colspan="2"&gt;</td>
+<td>&lt;th colspan=2&gt;</td>
+</tr>
+
+</table>
+</center>
+</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="border:3px solid gray">
+<h2 style="color:orange;">Documento valido</h2>
+<p style="color:white;font-size:20px;">
+Un documento &egrave; <strong>valido</strong> se rispetta
+la grammatica di riferimento, ossia quella specificata dalla
+<a href="./dtd.html">Document Type Description</a>.
+Il documento deve quindi rispettare la struttura degli elementi 
+specificata nel file .dtd e usare solo gli elementi consentiti.
+</p>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="border:3px solid gray">
+<h2 style="color:orange;">Come verificare la velidit&agrave; di un documento</h2>
+<p style="color:white;font-size:20px;">
+Uno strumento utile per controllare la validit&agrave; 
+di un documento &egrave;  il 
+<a href="https://validator.w3.org/">Markup Validation Service</a> di W3C,
+dove basta caricare il file (o inserirne l'U.R.I.) per controllare tutti
+gli errori che rendono il file non valido. 
+</p>
+</td>
+</tr>
+</table>
+
+</body>
+
+</html>
