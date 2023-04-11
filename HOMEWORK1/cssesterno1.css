@@ -35,7 +35,6 @@ width: auto\9;
   border: none;
   border-radius: 10px;
 }
-
 .button:hover {
 background-color: orange;
 }
@@ -43,6 +42,27 @@ background-color: orange;
 .button:active {
   background-color: red;
   transform: translateY(4px);
+}
+.button_esempio {
+  display: inline-block;
+  padding: 15px 75px;
+  font-size: 20px;
+  font-family:Copperplate Gothic Light, fantasy;
+  font-weight:1000;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-image:linear-gradient(to right, green,yellow, orange, red); 
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.button_esempio:hover {
+background-image:linear-gradient(to right, red,orange,yellow,green);
+}
+
+.button_esempio:active {
+  background-color: red;
+  transform: translateY(10px);
 }
 dl{
 font-size:20px;
@@ -75,6 +95,13 @@ border-radius: 10px;
 border: 2px solid gray; 
 background-image:linear-gradient(to right,#1E1E1E,black); 
 border-radius: 0px;
+}
+.tab_esempio{
+	background-color:red;
+	border:3px solid white;
+	border-radius:10px;
+	width:50%;
+	
 }
 .tooltip {
 position: relative;
@@ -110,4 +137,5 @@ top: 100%;
  left: 50%;
 margin-left: -5px;
 }
+
 
