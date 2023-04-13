@@ -10,6 +10,12 @@ td{
 text-align:left;
 color:white;
 vertical-align:top;
+ border-style: none;
+}
+th{
+vertical-align:top;	
+	text-align:center;
+ border-style: none;
 }
 div{
 display: flex; 
@@ -77,6 +83,12 @@ font-weight:1000;
 font-family:Copperplate Gothic Light, fantasy;
 color:white;
 }
+h3{
+font-size:40x;
+font-weight:1000;
+font-family:Copperplate Gothic Light, fantasy;
+color:white;	
+}
 a:link,a:visited{
 color:white;
 background-color:transparent;
@@ -92,16 +104,15 @@ background-image:linear-gradient(to bottom,#1E1E1E,black);
 border-radius: 10px;
 }
 .tab3{
-border: 2px solid gray; 
+border: 0px; 
 background-image:linear-gradient(to right,#1E1E1E,black); 
-border-radius: 0px;
+border-radius: 10px;
 }
 .tab_esempio{
 	background-color:red;
 	border:3px solid white;
 	border-radius:10px;
 	width:50%;
-	
 }
 .tooltip {
 position: relative;
@@ -137,5 +148,15 @@ top: 100%;
  left: 50%;
 margin-left: -5px;
 }
-
+.content {
+width: 50%; 
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: auto;
+margin-left: auto; 	
+border: 3px solid #1E1E1E;
+border-radius:10px;
+text-align:left; 
+}
 
