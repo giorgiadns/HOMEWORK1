@@ -1,7 +1,7 @@
 HOMEWORK 1 - XHTML/CSS - DE NARDIS GIORGIA (1939804)
 -----------------------------------------------------------------
 
-REPOSITORY GITHUB: https://github.com/giorgiadns/HOMEWORK1
+REPOSITORY GITHUB: https://github.com/giorgiadns/HOMEWORK
 
 -----------------------------------------------------------------
 
